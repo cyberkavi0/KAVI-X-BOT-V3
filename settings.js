@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~71J3wCxY#td_Ag_WNtcEXT5XSL65XtJ97686i9mFErOp1sr7kHaw"
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~a0YyQYgK#ooBAPvZEyvS7YZH0Xxcs6nk3NkxvrImTKftSlguJEsE"
 global.mongodburi = process.env.MONGODB_URI || "mongodb+srv://cyberkavi011_db_user:cyberkavi011_db_user@kavi-x-md-movie-bot-new.scruxlq.mongodb.net/0766577249-data?appName=kavi-x-md-movie-bot-new-v"
 global.botname = process.env.BOTNAME || "KAVI-X MD"
 global.ownernumber = process.env.OWNERNUMBER || "94766577249"
@@ -11,7 +11,7 @@ global.author = process.env.AUTHOR || "Cyber Kavi"
 
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
-global.restart = process.env.RESTART || true
+global.restart = process.env.RESTART || false
 global.websitex = process.env.WEBSITEX || "https://kavi-x-bot-login.up.railway.app"
 global.wagc = process.env.WAGC || "https://moviemixtapesocial.zone.id"
 global.botscript = process.env.BOTSCRIPT || "https://github.com/KaviDeveloperSe/KAVI-X-BOT"
